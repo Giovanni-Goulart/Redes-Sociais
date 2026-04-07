@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO básico-->
+    <meta name="description" content="Projeto de navegação entre redes sociais com uma interface simulando um smartphone.">
+   
+   <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <title>Projeto Redes Sociais</title>
+
+</head>
+<body>
+
+    <!--Area do "celular"(iframe)-->
+
+    <main class="app">
+        <section id="telefone" aria-label="Simulação de smartphone">
+            <iframe
+                src="home.html"
+                name="tela"
+                id="tela"
+                title="Tela do smartphone com páginas de redes sociais">
+            
+                Seu navegador não é compatível com iframes.
+            </iframe>
+        </section>
+
+     <!-- Menu de redes sociais -->
+
+    <section id="redes-sociais" aria-label="Navegacação entre redes sociais">
+
+        <a href="home.html" target="tela" title="Abrir página inicial">
+            <img src="imagens/logo-home.jpg" alt="Ícone da página inicial" loading="lazy">
+        </a><br>
+
+        <a href="youtube.html" target="tela" title="Abrir Youtube">
+            <img src="imagens/logo-youtube.jpg" alt="Ícone do YouTube" loading="lazy">
+        </a><br>
+
+        <a href="github.html" target="tela" title="Abrir github">
+            <img src="imagens/logo-github.png" alt="Ícone do GitHub" loading="lazy">
+        </a><br>
+
+        <a href="instagram.html" target="tela" title="Abrir instagram">
+            <img src="imagens/logo-instagram.jpg" alt="Ícone doInstagram" loading="lazy">
+        </a><br>
+
+        <a href="twitter.html" target="tela"title="Abrir twitter">
+            <img src="imagens/logo-twitter.jpg" alt="Ícone do twitter" loading="lazy">
+        </a><br>
+
+        <a href="facebook.html" target="tela" title="Abrir facebook">
+            <img src="imagens/logo-facebook.jpg" alt="Ícone do Facebook" loading="lazy">
+        </a><br>
+
+        <a href="telegram.html" target="tela" title="Abrir telegram">
+            <img src="imagens/logo-telegram.jpg" alt="Ícone do Telegram" loading="lazy">
+        </a>
+
+    </section>
+
+</main>
+
+</body>
+</html>
